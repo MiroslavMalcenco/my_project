@@ -14,5 +14,7 @@ int main () {
     cin >> x;
     cin >> y;
     cout << proizvedenie(x , y) << endl;
+    int masiv[2]={1, 2};
+    cout << proizvedenie(masiv[0] , masiv [1]) << endl;
     return 0;
 }

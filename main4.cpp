@@ -14,7 +14,12 @@ int main () {
     cin >> x;
     cin >> y;
     cout << proizvedenie(x , y) << endl;
-    int masiv[2]={1, 2};
-    cout << proizvedenie(masiv[0] , masiv [1]) << endl;
+    int masiv[5]={1, 2, 3, 4, 5};
+    int p;
+    p= masiv[0];
+    for (int i=1; i<5; i++){
+        p = proizvedenie(p, masiv[i]);
+    }
+    cout <<p;
     return 0;
 }
